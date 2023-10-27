@@ -9,10 +9,8 @@ int main(void) {
     PtrToEmployee searchEmployeeByPhoneNumber(PtrToConstEmployee ptr, int tableSize, char* targetPhone);
     PtrToEmployee searchEmployeeBySalary(PtrToConstEmployee ptr, int tableSize, double targetSalary);
 
-
     extern Employee EmployeeTable[]; //defined in employeeTable.c
     extern const int EmployeeTableEntries;
-
 
     PtrToEmployee matchPtr;
    
